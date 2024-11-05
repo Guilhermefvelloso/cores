@@ -1,0 +1,42 @@
+/* Estilos para o body e container */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60%;
+    text-align: center;
+}
+
+/* Estilos para as caixas (DIVs) */
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    transition: background-color 0.5s ease; /* Efeito de transição */
+}
+
+/* Estilos para o botão */
+#btnChangeColor {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#btnChangeColor:hover {
+    background-color: #0056b3;
+}
